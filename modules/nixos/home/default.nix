@@ -9,8 +9,6 @@ with lib;
 with lib.custom; {
   imports = with inputs; [
     home-manager.nixosModules.home-manager
-    nix-colors.homeManagerModules.default
-    prism.homeModules.prism
   ];
 
   options.home = with types; {
