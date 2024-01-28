@@ -8,7 +8,7 @@ _: {
   # Enable NetworkManager
   networking.networkmanager.enable = true;
 
-  suites.development.enable = true;
+  suites.common.enable = true;
   services.ssh.enable = true;
 
   system.stateVersion = "22.11";
