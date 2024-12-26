@@ -9,7 +9,7 @@ with lib.custom; let
   cfg = config.hardware.networking;
 in {
   options.hardware.networking = with types; {
-    enable = mkBoolOpt false "Enable pipewire";
+    enable = mkBoolOpt false "Enable networking";
   };
 
   config = mkIf cfg.enable {
